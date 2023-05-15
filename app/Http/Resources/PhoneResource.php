@@ -29,7 +29,8 @@ class PhoneResource extends JsonResource
             'internalStorage' => $this->internalStorage,
             'batteryCapacity' => $this->batteryCapacity,
             'simType' => $this->simType,
-            'price' => $this->price
+            'price' => $this->price,
+            'image' => $this->image
         ];
     }
 }
