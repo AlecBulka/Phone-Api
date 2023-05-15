@@ -23,6 +23,7 @@ class Phone extends Model
         'internalStorage',
         'batteryCapacity',
         'simType',
-        'price'
+        'price',
+        'image'
     ];
 }

@@ -27,6 +27,7 @@ return new class extends Migration
             $table->integer("batteryCapacity");
             $table->string("simType");
             $table->float("price");
+            $table->string('image');
             $table->timestamps();
         });
     }

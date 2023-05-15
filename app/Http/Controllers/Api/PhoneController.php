@@ -30,6 +30,12 @@ class PhoneController extends Controller
     {
         $validated = $request->validated();
 
+        $imageName = $request->image->getClientOriginalName();
+
+        $request->image->move(public_path('img/phones'), $imageName);
+
+        $validated['image'] = $imageName;
+
         $phone = Phone::create($validated);
 
         return response()->json([

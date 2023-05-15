@@ -35,7 +35,8 @@ class StorePhoneRequest extends FormRequest
             'internalStorage' => 'required|integer',
             'batteryCapacity' => 'required|integer',
             'simType' => 'required|string',
-            'price' => 'required|numeric'
+            'price' => 'required|numeric',
+            'image' => 'required|image|mimes:png,jpg,jpeg|max:5120'
         ];
     }
 }
