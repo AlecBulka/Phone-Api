@@ -34,7 +34,7 @@ class PhoneController extends Controller
 
         $request->image->move(public_path('img/phones'), $imageName);
 
-        $validated['image'] = $imageName;
+        $validated['image'] = 'https://phone-api.alecbulka.com/img/phones/' . $imageName;
 
         $phone = Phone::create($validated);
 
