@@ -30,7 +30,8 @@ class PhoneResource extends JsonResource
             'batteryCapacity' => $this->batteryCapacity,
             'simType' => $this->simType,
             'price' => $this->price,
-            'image' => $this->image
+            'image' => $this->image,
+            'hidden' => $this->hidden
         ];
     }
 }

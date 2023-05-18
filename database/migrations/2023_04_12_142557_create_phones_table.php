@@ -28,6 +28,7 @@ return new class extends Migration
             $table->string("simType");
             $table->float("price");
             $table->string('image');
+            $table->boolean('hidden')->default(true);
             $table->timestamps();
         });
     }

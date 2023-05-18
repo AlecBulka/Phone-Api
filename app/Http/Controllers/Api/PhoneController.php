@@ -85,4 +85,26 @@ class PhoneController extends Controller
             'message' => 'Phone Deleted'
         ], 200);
     }
+
+
+    public function hide(Phone $phone)
+    {
+        $phone->update(['hidden' => true]);
+
+        return response()->json([
+            'status' => 'Success',
+            'message' => 'Phone Hidden'
+        ], 200);
+    }
+
+    
+    public function display(Phone $phone)
+    {
+        $phone->update(['hidden' => false]);
+
+        return response()->json([
+            'status' => 'Success',
+            'message' => 'Phone Displayed'
+        ], 200);
+    }
 }

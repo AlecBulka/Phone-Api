@@ -24,6 +24,7 @@ class Phone extends Model
         'batteryCapacity',
         'simType',
         'price',
-        'image'
+        'image',
+        'hidden'
     ];
 }

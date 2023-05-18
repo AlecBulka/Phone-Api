@@ -35,7 +35,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 3279,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 1009,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-14.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-14.jpg',
+            'hidden' => false
         ]);
 
         Phone::create([
@@ -53,7 +54,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 5000,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 1829,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-S23-Ultra.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-S23-Ultra.jpg',
+            'hidden' => false
         ]);
 
         Phone::create([
@@ -71,7 +73,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 3900,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 959,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-S23.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-S23.jpg',
+            'hidden' => false
         ]);
 
         Phone::create([
@@ -89,7 +92,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 4323,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 1859,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-14-Pro-Max.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-14-Pro-Max.jpg',
+            'hidden' => false
         ]);
 
         Phone::create([
@@ -107,7 +111,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 2815,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 809,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-12.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-12.jpg',
+            'hidden' => false
         ]);
 
         Phone::create([
@@ -125,7 +130,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 3240,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 1029,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-13.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/iPhone-13.jpg',
+            'hidden' => false
         ]);
 
         Phone::create([
@@ -143,7 +149,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 4400,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 1799,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-Z-Fold4.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-Z-Fold4.jpg',
+            'hidden' => false
         ]);
 
         Phone::create([
@@ -161,7 +168,8 @@ class DatabaseSeeder extends Seeder
             'batteryCapacity' => 3700,
             'simType' => 'Nano-SIM and eSIM',
             'price' => 1279,
-            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-Z-Flip4.jpg'
+            'image' => 'https://phone-api.alecbulka.com/img/phones/Samsung-Galaxy-Z-Flip4.jpg',
+            'hidden' => false
         ]);
 
     }

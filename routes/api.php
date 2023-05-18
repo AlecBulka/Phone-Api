@@ -23,6 +23,8 @@ Route::post('/register', [AuthController::class, 'register']);
 
 Route::middleware(['auth:sanctum'])->group(function () {
     Route::apiResource('/phones', PhoneController::class);
+    Route::put('/hide/{phone}', [PhoneController::class, 'hide']);
+    Route::put('/display/{phone}', [PhoneController::class, 'display']);
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::get('/user', function(Request $request) {
         return $request->user();
